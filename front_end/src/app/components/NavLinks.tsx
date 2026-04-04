@@ -1,15 +1,13 @@
-import NavLink from '@/components/ui/NavLink'
-import React from 'react'
+import NavLink from "@/components/ui/NavLink";
+import React from "react";
 
 function NavLinks() {
   return (
-    <div className='flex flex-row gap-2'>
-        <NavLink />
-        <NavLink />
-        <NavLink />
-        <NavLink />
+    <div className="flex flex-row gap-4 cursor-pointer text-xs font-bold ">
+      <NavLink text="Giới Thiệu" toPath="" />
+      <NavLink text="Tin tức" toPath="" />
     </div>
-  )
+  );
 }
 
-export default NavLinks
+export default NavLinks;

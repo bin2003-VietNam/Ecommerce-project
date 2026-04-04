@@ -1,9 +1,11 @@
-import React from 'react'
-
-function NavLink() {
-  return (
-    <div>NavLink</div>
-  )
+import React from "react";
+interface NavLinkProps {
+  text: string;
+  toPath: string;
 }
 
-export default NavLink
+function NavLink(props: NavLinkProps) {
+  return <div className="hover:text-blue-500">{props.text}</div>;
+}
+
+export default NavLink;
