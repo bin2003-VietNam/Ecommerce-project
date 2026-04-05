@@ -7,7 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
-      <body className="min-h-screen w-full" suppressHydrationWarning>
+      <body className="min-h-screen w-full bg-gray-300" suppressHydrationWarning>
         {children}
       </body>
     </html>

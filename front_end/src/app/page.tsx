@@ -1,12 +1,11 @@
-import Header from "@/components/layout/Header";
+import Header from "@/components/Header";
+import HomeHero from "@/components/HomeHero";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col">
       <Header />
-      <div className="w-full h-150 bg-gray-300 flex items-center justify-center">
-        <img src="./hoyo.jpg" className="w-120 h-120"/>
-      </div>
-    </>
+      <HomeHero />
+    </div>
   );
 }

@@ -1,4 +1,4 @@
-import NavLink from "@/components/ui/NavLink";
+import NavLink from "@/components/NavLink";
 import React from "react";
 
 function NavLinks() {

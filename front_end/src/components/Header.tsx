@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../ui/Logo";
-import SearchBar from "../ui/SearchBar";
-import ActionIcons from "../ui/ActionIcons";
-import NavLinks from "@/app/components/NavLinks";
+import Logo from "./Logo";
+import SearchBar from "./SearchBar";
+import ActionIcons from "./ActionIcons";
+import NavLinks from "@/components/NavLinks";
 
 function Header() {
   return (
