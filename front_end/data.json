@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cat_1",
+    "label": "Máy tính xách tay",
+    "icon": "icon-laptop",
+    "url": "/may-tinh-xach-tay",
+    "columns": []
+  },
+  {
+    "id": "cat_2",
+    "label": "Laptop Gaming - Đồ Họa",
+    "icon": "icon-gaming",
+    "url": "/laptop-gaming-do-hoa",
+    "columns": [
+      {
+        "id": "col_1",
+        "title": "Laptop Gaming",
+        "items": [
+          {
+            "id": "item_1",
+            "label": "Laptop Gaming Acer",
+            "url": "/laptop-gaming-acer",
+            "children": [] 
+          },
+          {
+            "id": "item_2",
+            "label": "Laptop Gaming Lenovo",
+            "url": "/laptop-gaming-lenovo",
+            "children": [
+              {
+                "id": "sub_1",
+                "label": "Laptop Lenovo Legion",
+                "url": "/laptop-lenovo-legion"
+              },
+              {
+                "id": "sub_2",
+                "label": "Lenovo Ideapad Gaming",
+                "url": "/lenovo-ideapad-gaming"
+              },
+              {
+                "id": "sub_3",
+                "label": "Lenovo LOQ",
+                "url": "/lenovo-loq"
+              }
+            ]
+          },
+          {
+            "id": "item_3",
+            "label": "Laptop Gaming HP",
+            "url": "/laptop-gaming-hp",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "col_2",
+        "title": "Laptop Đồ Họa",
+        "items": [
+          {
+            "id": "item_4",
+            "label": "Laptop Đồ Họa Asus",
+            "url": "/laptop-do-hoa-asus",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "col_3",
+        "title": "Khoảng Giá",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "cat_3",
+    "label": "Laptop Văn phòng",
+    "icon": "icon-office",
+    "url": "/laptop-van-phong"
+  }
+]
